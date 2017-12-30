@@ -1,0 +1,23 @@
+{
+  "name": "remote-timezones",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.0.17"
+  },
+  "dependencies": {
+    "moment": "^2.20.1",
+    "moment-timezone": "^0.5.14",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-datalist": "^4.0.0",
+    "react-dom": "^16.2.0",
+    "react-swipe-to-delete-component": "^0.3.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
