@@ -1,21 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
 import timezones from './timezones';
+import ReactDatalist from 'react-datalist';
 
 const ZonePicker = (props) => {
-
+    const checkIfExists = (e) => {
+        const value = e.currentTarget.value;
+        if (timezones.hasOwnProperty(value)) {
+            props.updateUTC(value)
+        }
+    }
+    const keys = Object.keys(timezones);
     return (
-        <select className="select" id={`zone-picker-${props.id}`}
-            onChange={props.updateZone}
-            defaultValue={props.value + "|" + props.offset}>
-            {timezones.map(tz =>
-                <option
-                    key={tz.utc[0] + tz.offset + tz.abbr}
-                    value={tz.value + "|" + tz.offset}>
-                    {tz.value}
-                </option>)
-            }
-        </select>
+        <ReactDatalist
+            list={`utc-picker-${props.id}`}
+            options={keys}
+            onOptionSelected={(value) => { props.updateUTC(value) }}
+            placeholder={/.+\/(.+)(?!.*.+)/.exec(props.utc)[1]}
+            onInputChange={(e) => { checkIfExists(e) }}
+        />
     )
-}
+};
 
 export default ZonePicker;
