@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/timezone-converter/static/css/main.b8e4d795.chunk.css",
+    "main.js": "/timezone-converter/static/js/main.b2e8006b.chunk.js",
+    "main.js.map": "/timezone-converter/static/js/main.b2e8006b.chunk.js.map",
+    "runtime-main.js": "/timezone-converter/static/js/runtime-main.cb55b516.js",
+    "runtime-main.js.map": "/timezone-converter/static/js/runtime-main.cb55b516.js.map",
+    "static/css/2.4929a290.chunk.css": "/timezone-converter/static/css/2.4929a290.chunk.css",
+    "static/js/2.93765e72.chunk.js": "/timezone-converter/static/js/2.93765e72.chunk.js",
+    "static/js/2.93765e72.chunk.js.map": "/timezone-converter/static/js/2.93765e72.chunk.js.map",
+    "index.html": "/timezone-converter/index.html",
+    "precache-manifest.142e8f07a07c0027f8a7c05f0875ee50.js": "/timezone-converter/precache-manifest.142e8f07a07c0027f8a7c05f0875ee50.js",
+    "service-worker.js": "/timezone-converter/service-worker.js",
+    "static/css/2.4929a290.chunk.css.map": "/timezone-converter/static/css/2.4929a290.chunk.css.map",
+    "static/css/main.b8e4d795.chunk.css.map": "/timezone-converter/static/css/main.b8e4d795.chunk.css.map",
+    "static/js/2.93765e72.chunk.js.LICENSE.txt": "/timezone-converter/static/js/2.93765e72.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb55b516.js",
+    "static/css/2.4929a290.chunk.css",
+    "static/js/2.93765e72.chunk.js",
+    "static/css/main.b8e4d795.chunk.css",
+    "static/js/main.b2e8006b.chunk.js"
+  ]
+}
